@@ -1,0 +1,41 @@
+html, 
+body {
+  height: 100%;
+}
+
+#root,
+.App {
+  height: 100%;
+  overflow: auto;
+  &--theme-default {
+    background-color: #100e17;
+    color: #ffffff;
+
+    ::selection {
+      background-color: #9c27b0;
+      color: #ffffff;
+    } 
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+}
+
+:root {
+  --header-height: 128px;
+}
+
+.screen-reader-text {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+// Blow is default style not in `normalize.css` but we need
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+

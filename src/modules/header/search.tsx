@@ -5,7 +5,8 @@ class Search extends React.Component {
     return (
       <div className="header-search">
         <form className="header-search_form">
-          <input type="search" required placeholder="" className="header-search_form__input"/>
+          <label className="screen-reader-text" htmlFor="search-input" id="search-label">Search for:</label>
+          <input type="search" id="search-input" name="s" required placeholder="" autoComplete="on" aria-labelledby="search-label" className="header-search_form__input"/>
           <button type="submit" className="header-search_form__button">
             <span className="screen-reader-text">Search</span>
             <svg width="26px" height="26px">

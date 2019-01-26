@@ -1,13 +1,13 @@
 import * as React from 'react'
 import Header from '../../modules/header'
-import Main from '../../modules/main';
+import Login from '../../modules/login'
 
 class Admin extends React.Component {
   render() {
     return (
       <div className="admin">
         <Header />
-        <Main />
+        <Login />
       </div>
     )
   }

@@ -9,6 +9,7 @@ class App extends React.Component {
         <div className="App App--theme-default">
           <Switch>
             <Route path="/admin" component={Admin} />
+            <Route path="/user/write" component={Admin} />
             <Route path="/" component={Home} />
           </Switch>
         </div>

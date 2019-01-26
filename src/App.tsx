@@ -1,14 +1,19 @@
-import React, { Component } from 'react'
-
-import Header from './modules/header'
-import Main from './modules/main'
-class App extends Component {
+import * as React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import Home from './pages/home'
+import Admin from './pages/admin'
+class App extends React.Component {
   render() {
     return (
-      <div className="App App--theme-default">
-        <Header />
-        <Main />
-      </div>
+      <Router>
+        <div className="App App--theme-default">
+          <Switch>
+            <Route path="/admin" component={Admin} />
+            <Route path="/" component={Home} />
+          </Switch>
+        </div>
+      </Router>
+
     );
   }
 }

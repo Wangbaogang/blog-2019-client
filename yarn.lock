@@ -1994,10 +1994,10 @@ batch@0.6.1:
   resolved "https://registry.yarnpkg.com/batch/-/batch-0.6.1.tgz#dc34314f4e679318093fc760272525f94bf25c16"
   integrity sha1-3DQxT05nkxgJP8dgJyUl+UvyXBY=
 
-bb-editor@^0.1.7:
-  version "0.1.7"
-  resolved "http://registry-npm.firstshare.cn/bb-editor/-/bb-editor-0.1.7.tgz#a5d7c7c1badd277591c1993e4dab8a910204d53c"
-  integrity sha512-UC/qS5kZiwnqCFmyxccAeNip96HueBwamHBOo7SLvRgOwLI9XsDNydBzwWaJztiHdITQlcmzgu4nG3DY/IyJCg==
+bb-editor@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/bb-editor/-/bb-editor-0.2.6.tgz#52cda3861e0cd27b2195d2dc818942aea530a97c"
+  integrity sha512-0PgWaQcrt1bPHbQr+BL/Pygp3CfLo+Q7qiQIlYsBa1bMCKll9cD18Tm2LLZUFHkzcuYER0M26707SLHh2/n/VQ==
   dependencies:
     "@types/draft-js" "^0.10.27"
     "@types/react" "^16.7.18"
